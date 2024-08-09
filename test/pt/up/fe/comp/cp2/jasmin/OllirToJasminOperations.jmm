@@ -1,0 +1,17 @@
+import io;
+import A;
+
+class Operations extends A {
+
+    // Negation
+    public boolean negate(boolean value) {
+        return !value;
+    }
+
+    public static void main(String[] args) {
+        Operations op;
+        op = new Operations();
+        io.println(op.negate(true)); // false
+
+    }
+}

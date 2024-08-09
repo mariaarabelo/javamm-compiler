@@ -1,0 +1,15 @@
+import A;
+import io;
+
+Operations extends Object {
+
+    .construct Operations().V {
+        invokespecial(this, "<init>").V;
+    }
+
+    .method public static main(args.array.String).V {
+        ret.V ;
+    }
+
+
+}
